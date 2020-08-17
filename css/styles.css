@@ -1,0 +1,91 @@
+/* цвет лого - синий  #2196F3  черн   #000000 */
+/* цвет основной -  #212121 */
+/* цвет дополн -    #757575 */
+/* при выделении -  белый   #FFFFFF    синий    #2196F3 */
+
+
+
+body{
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+/* header */
+
+.list{
+    list-style: none;
+}
+.logo{
+    color: #000000;
+}
+.logo-web{
+    color: #2196F3;
+}
+.site-nav .link{
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+.site-address .link{
+    color:  #757575;
+}
+.site-address .link:hover,
+.site-address .link:focus{
+    color:  #2196F3;
+}
+ 
+/* main */ /* Герой */
+
+.hero{
+    background-color: #2F303A;
+}
+.hero .hero-title{
+    color: #FFFFFF;
+}
+.hero .hero-text{
+    color: #FFFFFF;
+}
+
+/* main *//* Преимущества */
+
+/* .section-title{
+    
+}*/
+/* .section .subtitle{
+    
+} */
+.benefits-list .text{
+    color: #757575;
+}
+
+/* main *//* Чем занимаемся */
+
+/* main *//* Команда */
+
+.staff-list .career{
+    color: #757575;
+}
+
+
+/* Футер */
+.footer{
+    background-color: #2F303A;;
+}
+.footer .logo{
+    color: #ffffff;
+}
+.footer .logo-web{
+    color: #2196F3;
+}
+.address .site-address{
+    color: rgba(255, 255, 255, 0.6);
+}
+.address .site-address:hover,
+.address .site-address:focus{
+    color:  #2196F3;
+}
+.address .text{
+    color: #ffffff;
+}
