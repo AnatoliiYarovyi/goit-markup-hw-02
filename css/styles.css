@@ -1,3 +1,14 @@
+:root{
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+
+    --logo-header-color: #000000;
+    --logo-header1-color: #2196F3;
+    --logo-footer-color: #ffffff;
+    --logo-footer1-color: #2196F3;
+}
+
 /* цвет лого - синий  #2196F3  черн   #000000 */
 /* цвет основной -  #212121 */
 /* цвет дополн -    #757575 */
@@ -7,7 +18,7 @@
 
 body{
     background-color: #FFFFFF;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 /* header */
@@ -16,35 +27,36 @@ body{
     list-style: none;
 }
 .logo{
-    color: #000000;
+    color: var(--logo-header-color);
 }
 .logo-web{
-    color: #2196F3;
+    color: var(--logo-header1-color);
 }
 .site-nav .link{
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .site-address .link{
-    color:  #757575;
+    color:  var(--text-color);
 }
 .site-address .link:hover,
 .site-address .link:focus{
-    color:  #2196F3;
+    color:  var(--accent-color);
 }
  
 /* main */ /* Герой */
 
 .hero{
     background-color: #2F303A;
-}
-.hero .hero-title{
     color: #FFFFFF;
 }
-.hero .hero-text{
+/* .hero .hero-title{
+    color: #FFFFFF;
+} */
+.hero .hero-link{
     color: #FFFFFF;
 }
 
@@ -57,7 +69,7 @@ body{
     
 } */
 .benefits-list .text{
-    color: #757575;
+    color: var(--text-color);
 }
 
 /* main *//* Чем занимаемся */
@@ -65,7 +77,7 @@ body{
 /* main *//* Команда */
 
 .staff-list .career{
-    color: #757575;
+    color: var(--text-color);
 }
 
 
@@ -74,17 +86,17 @@ body{
     background-color: #2F303A;;
 }
 .footer .logo{
-    color: #ffffff;
+    color: var(--logo-footer-color);
 }
 .footer .logo-web{
-    color: #2196F3;
+    color: var(--logo-footer1-color);
 }
 .address .site-address{
     color: rgba(255, 255, 255, 0.6);
 }
 .address .site-address:hover,
 .address .site-address:focus{
-    color:  #2196F3;
+    color:  var(--accent-color);
 }
 .address .text{
     color: #ffffff;
