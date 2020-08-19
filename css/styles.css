@@ -16,7 +16,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* header */
+/* --------------- header ------------------ */
 .list {
   list-style: none;
 }
@@ -52,7 +52,7 @@ body {
   color: var(--accent-color);
 }
 
-/* main */ /* Герой */
+/* main */ /* ---------------- Герой ------------- */
 .hero {
   background-color: #2f303a;
   color: #ffffff;
@@ -76,7 +76,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-/* main */ /* Преимущества */
+/* main */ /* ---------- Преимущества ------------ */
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -91,13 +91,13 @@ body {
 .section .text {
   line-height: 1.71;
 }
-.benefits-list .text {
+.text {
   color: var(--text-color);
 }
 
-/* main */ /* Чем занимаемся */
+/* main */ /* -------------- Чем занимаемся -------------- */
 
-/* main */ /* Команда */
+/* main */ /* ----------- Команда ------------------ */
 .staff-list .name {
   font-weight: 700;
   font-size: 36px;
@@ -111,7 +111,7 @@ body {
   text-align: center;
 }
 
-/* Футер */
+/* ------- Футер ----------- */
 .footer {
   background-color: #2f303a;
 }
@@ -131,4 +131,27 @@ body {
 .address .link:hover,
 .address .link:focus {
   color: var(--accent-color);
+}
+
+/* ----- PORTFOLIO ------ */
+
+button {
+  font-family: inherit;
+}
+.filter button {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.cards .subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.cards .text {
+  font-size: 16px;
+  line-height: 1.87;
 }
