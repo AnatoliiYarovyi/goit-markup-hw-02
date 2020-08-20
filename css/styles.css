@@ -1,24 +1,28 @@
 :root {
+  --logo-header-color: #000000;
   --primary-text-color: #212121;
   --text-color: #757575;
   --accent-color: #2196f3;
-
-  --logo-header-color: #000000;
-  --logo-web-color: #2196f3;
-  --logo-footer-color: #ffffff;
+  --white-color: #ffffff;
+  --ftr-bgcolor: #2f303a;
+  --ftr-link-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 /* --------------- header ------------------ */
 .list {
   list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 .logo {
   color: var(--logo-header-color);
@@ -27,9 +31,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
-.logo-web {
-  color: var(--logo-web-color);
-}
 .site-nav .link,
 .site-address {
   color: var(--primary-text-color);
@@ -37,7 +38,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav .link.current {
+.logo .current,
+.site-nav .current {
   color: var(--accent-color);
 }
 .site-nav .link:hover,
@@ -54,8 +56,8 @@ body {
 
 /* main */ /* ---------------- Герой ------------- */
 .hero {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--ftr-bgcolor);
+  color: var(--white-color);
 }
 .hero .hero-title {
   font-weight: 900;
@@ -66,7 +68,7 @@ body {
   text-transform: uppercase;
 }
 .hero .button {
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--accent-color);
   font-weight: bold;
   font-size: 16px;
@@ -77,7 +79,7 @@ body {
 }
 
 /* main */ /* ---------- Преимущества ------------ */
-.section-title {
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -88,9 +90,6 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.section .text {
-  line-height: 1.71;
-}
 .text {
   color: var(--text-color);
 }
@@ -98,12 +97,6 @@ body {
 /* main */ /* -------------- Чем занимаемся -------------- */
 
 /* main */ /* ----------- Команда ------------------ */
-.staff-list .name {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
 .staff-list .career {
   color: var(--text-color);
   font-size: 16px;
@@ -113,20 +106,18 @@ body {
 
 /* ------- Футер ----------- */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--ftr-bgcolor);
 }
 .footer .logo {
-  color: var(--logo-footer-color);
+  color: var(--white-color);
 }
 .address .text {
-  color: #ffffff;
+  color: var(--white-color);
   font-style: normal;
-  line-height: 1.71;
 }
 .address .link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--ftr-link-color);
   font-style: normal;
-  line-height: 1.71;
 }
 .address .link:hover,
 .address .link:focus {
